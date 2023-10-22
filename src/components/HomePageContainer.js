@@ -20,7 +20,7 @@ const HomePageContainer = (props) => {
       <Grid item xs={12}>
         <Box mt={2}>
           <Typography variant="h4">
-            Welcome {user.otherNames} {user.lastName}!
+          Bienvenue sur le compte {user.username}!
           </Typography>
         </Box>
       </Grid>
